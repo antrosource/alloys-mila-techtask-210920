@@ -8,6 +8,9 @@ COPY package*.json ./
 # Install production dependencies.
 RUN npm install --only=production
 
+EXPOSE 8080
+ENV PORT=8080
+
 # Copy local code to the container image.
 COPY . ./
 
