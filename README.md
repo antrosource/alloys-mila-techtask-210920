@@ -1,6 +1,6 @@
 # Ukufu Tech Task
 
-This task has been implemented in node.js. Specifically tested with v14.3.0 but anything above v10 should work
+This task is written in typescript and needs node.js to run. It was specifically tested with node v14.3.0 but anything above v10 should work.
 
 ## Usage
 
